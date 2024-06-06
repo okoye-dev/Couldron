@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "couldron-native",
-    "slug": "couldron-native",
+    "name": "Couldron",
+    "slug": "couldron",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "couldron",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1d3b4d4e-cd26-4073-8027-00ec192a5fe2"
+      }
+    },
+    "owner": "okoye-dev"
   }
 }
